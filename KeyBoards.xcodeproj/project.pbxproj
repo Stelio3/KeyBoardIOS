@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7903F323217753300015B382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7903F322217753300015B382 /* AppDelegate.swift */; };
-		7903F325217753300015B382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7903F324217753300015B382 /* ViewController.swift */; };
-		7903F328217753300015B382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7903F326217753300015B382 /* Main.storyboard */; };
 		7903F32A217753310015B382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7903F329217753310015B382 /* Assets.xcassets */; };
 		7903F32D217753310015B382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7903F32B217753310015B382 /* LaunchScreen.storyboard */; };
 		7903F338217753310015B382 /* KeyBoardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7903F337217753310015B382 /* KeyBoardsTests.swift */; };
 		7903F343217753320015B382 /* KeyBoardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7903F342217753320015B382 /* KeyBoardsUITests.swift */; };
+		7903F35F217759540015B382 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7903F35D217759540015B382 /* SwitchCell.swift */; };
+		7903F360217759540015B382 /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7903F35E217759540015B382 /* SwitchCell.xib */; };
+		7903F36421775AB80015B382 /* KeyBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7903F36221775AB80015B382 /* KeyBoardViewController.swift */; };
+		7903F36521775AB80015B382 /* KeyBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7903F36321775AB80015B382 /* KeyBoardViewController.xib */; };
+		7903F368217765980015B382 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7903F367217765980015B382 /* Options.swift */; };
+		7917DACD21807A610089CBCD /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7917DACB21807A610089CBCD /* IconCell.swift */; };
+		7917DACE21807A610089CBCD /* IconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7917DACC21807A610089CBCD /* IconCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,6 @@
 /* Begin PBXFileReference section */
 		7903F31F217753300015B382 /* KeyBoards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7903F322217753300015B382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7903F324217753300015B382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7903F327217753300015B382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7903F329217753310015B382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7903F32C217753310015B382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7903F32E217753310015B382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		7903F33E217753320015B382 /* KeyBoardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7903F342217753320015B382 /* KeyBoardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardsUITests.swift; sourceTree = "<group>"; };
 		7903F344217753320015B382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7903F35D217759540015B382 /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		7903F35E217759540015B382 /* SwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		7903F36221775AB80015B382 /* KeyBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardViewController.swift; sourceTree = "<group>"; };
+		7903F36321775AB80015B382 /* KeyBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyBoardViewController.xib; sourceTree = "<group>"; };
+		7903F367217765980015B382 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		7917DACB21807A610089CBCD /* IconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
+		7917DACC21807A610089CBCD /* IconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,10 @@
 		7903F321217753300015B382 /* KeyBoards */ = {
 			isa = PBXGroup;
 			children = (
+				7903F3662177656A0015B382 /* Models */,
+				7903F36121775A7E0015B382 /* KeyBoardViewController */,
+				7903F351217756410015B382 /* Cell */,
 				7903F322217753300015B382 /* AppDelegate.swift */,
-				7903F324217753300015B382 /* ViewController.swift */,
-				7903F326217753300015B382 /* Main.storyboard */,
 				7903F329217753310015B382 /* Assets.xcassets */,
 				7903F32B217753310015B382 /* LaunchScreen.storyboard */,
 				7903F32E217753310015B382 /* Info.plist */,
@@ -123,6 +134,50 @@
 				7903F344217753320015B382 /* Info.plist */,
 			);
 			path = KeyBoardsUITests;
+			sourceTree = "<group>";
+		};
+		7903F351217756410015B382 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7917DACA218079F70089CBCD /* IconCell */,
+				7903F359217759100015B382 /* SwitchCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7903F359217759100015B382 /* SwitchCell */ = {
+			isa = PBXGroup;
+			children = (
+				7903F35D217759540015B382 /* SwitchCell.swift */,
+				7903F35E217759540015B382 /* SwitchCell.xib */,
+			);
+			path = SwitchCell;
+			sourceTree = "<group>";
+		};
+		7903F36121775A7E0015B382 /* KeyBoardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7903F36221775AB80015B382 /* KeyBoardViewController.swift */,
+				7903F36321775AB80015B382 /* KeyBoardViewController.xib */,
+			);
+			path = KeyBoardViewController;
+			sourceTree = "<group>";
+		};
+		7903F3662177656A0015B382 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7903F367217765980015B382 /* Options.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7917DACA218079F70089CBCD /* IconCell */ = {
+			isa = PBXGroup;
+			children = (
+				7917DACB21807A610089CBCD /* IconCell.swift */,
+				7917DACC21807A610089CBCD /* IconCell.xib */,
+			);
+			path = IconCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +286,9 @@
 			files = (
 				7903F32D217753310015B382 /* LaunchScreen.storyboard in Resources */,
 				7903F32A217753310015B382 /* Assets.xcassets in Resources */,
-				7903F328217753300015B382 /* Main.storyboard in Resources */,
+				7917DACE21807A610089CBCD /* IconCell.xib in Resources */,
+				7903F360217759540015B382 /* SwitchCell.xib in Resources */,
+				7903F36521775AB80015B382 /* KeyBoardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7903F325217753300015B382 /* ViewController.swift in Sources */,
+				7903F368217765980015B382 /* Options.swift in Sources */,
+				7917DACD21807A610089CBCD /* IconCell.swift in Sources */,
 				7903F323217753300015B382 /* AppDelegate.swift in Sources */,
+				7903F35F217759540015B382 /* SwitchCell.swift in Sources */,
+				7903F36421775AB80015B382 /* KeyBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7903F326217753300015B382 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7903F327217753300015B382 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7903F32B217753310015B382 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,7 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pablo.KeyBoards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,7 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pablo.KeyBoards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
